@@ -1,0 +1,68 @@
+/*general*/
+*{
+    box-sizing:border-box;
+    transition: all 0.35s ease 0s;
+}
+html { 
+    font-size: 62.5%; 
+}
+h1,h2,h3,h4{
+    margin: 0;
+    font-weight: normal;
+}
+body{
+    /*background-image:;*/
+    color: #999;
+    font-size: 1.8rem;
+    font-family:'Bree Serif', serif;
+    line-height: 2;
+    text-align: center;
+}
+.marge{
+    margin-top: 150px;
+}
+div.container{
+    padding: 0 20px;
+}
+a{
+    color: rgba(246, 36, 89,1);
+    text-decoration: none;
+}
+article{
+    margin-top: 50px;
+}
+figure{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+/*header mobile*/
+
+
+
+/*main mobile*/
+
+@media screen and (min-width:768px){
+    /*header tab*/
+    /*main tab*/
+}
+@media screen and (min-width:1025px){
+    /*general desktop*/
+    .container{
+    margin: 0 auto;
+    max-width:1100px; 
+    }
+    /*header desktop*/
+    /*main desktop*/
+}
+/*footer*/
+footer p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 0.9em;
+}
+footer img {
+    width: 50px;
+}
