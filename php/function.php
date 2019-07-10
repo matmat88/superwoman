@@ -12,27 +12,29 @@
 //  JS t.length => PHP count($t)
 //  JS t.includes('x') => PHP in_array($valeur,$t)
 //  JS t.push(x) => PHP $t[]=$valeur 
-rand($min,$max);
-count($t);
-in_array($valeur,$t);
-$t[]=$valeur;
-array_key_exists('z',$t);
-array_search();
-array_flip();
+// rand($min,$max);
+// count($t);
+// in_array($valeur,$t);
+// $t[]=$valeur;
+// array_key_exists('z',$t);
+// array_search();
+// array_flip();
 
-// php language de type explicite
-function f (int $x,int $y) : int
-{
-    return $y +$y;
-};
+// // php language de type explicite
+// function f (int $x,int $y) : int
+// {
+//     return $y +$y;
+// };
 
-// fonction de verification
-// => required en html
-// pattern=> expression régulière
-isset($task['title']); /*=> verifie que la clé titre éxiste*/
-throw new \Exception("Les données ne sont pas valides", 102);
-try{}
-catch(\Exception $e){
-    echo "<p>Une erreur a empêché l'exécution de votre requête : ".$e->getMessage()." </p>";
-}
+// // fonction de verification
+// // => required en html
+// // pattern=> expression régulière
+// isset($task['title']); /*=> verifie que la clé titre éxiste*/
+// throw new \Exception("Les données ne sont pas valides", 102);
+// try{}
+// catch(\Exception $e){
+//     echo "<p>Une erreur a empêché l'exécution de votre requête : ".$e->getMessage()." </p>";
+// }
+
+
 ?>
